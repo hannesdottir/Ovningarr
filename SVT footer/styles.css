@@ -1,5 +1,9 @@
-html,
 body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
     margin: 0;
     padding: 0;
 }
@@ -20,8 +24,6 @@ body {
     padding: 0 0 2rem 0;
 }
 
-
-
 @media only screen and (min-width: 750px) {
     .footer-column-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -39,11 +41,8 @@ body {
     .footer-column {
         max-width: 15rem;
         align-items: center;
-
     }
 }
-
-
 
 .footer-column p {
     margin: 0 0 .5rem 0;
